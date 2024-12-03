@@ -5,6 +5,19 @@
   
   <entry>
     <title></title>
+    <link href="/2024/12/03/README/"/>
+    <url>/2024/12/03/README/</url>
+    
+    <content type="html"><![CDATA[<h1 id="hexo-generator-archive"><a href="#hexo-generator-archive" class="headerlink" title="hexo-generator-archive"></a>hexo-generator-archive</h1><p><a href="https://github.com/hexojs/hexo-generator-archive/actions?query=workflow:Tester"><img src="https://github.com/hexojs/hexo-generator-archive/workflows/Tester/badge.svg" alt="Build Status"></a><br><a href="https://www.npmjs.com/package/hexo-generator-archive"><img src="https://badge.fury.io/js/hexo-generator-archive.svg" alt="NPM version"></a><br><a href="https://coveralls.io/r/hexojs/hexo-generator-archive?branch=master"><img src="https://img.shields.io/coveralls/hexojs/hexo-generator-archive.svg" alt="Coverage Status"></a></p><p>Archive generator for <a href="https://hexo.io/">Hexo</a>.</p><h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ npm install hexo-generator-archive --save<br></code></pre></td></tr></table></figure><h2 id="Options"><a href="#Options" class="headerlink" title="Options"></a>Options</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">archive_generator:</span><br>  <span class="hljs-attr">enabled:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">per_page:</span> <span class="hljs-number">10</span><br>  <span class="hljs-attr">yearly:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">monthly:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">daily:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">order_by:</span> <span class="hljs-string">-date</span><br></code></pre></td></tr></table></figure><ul><li><strong>enabled</strong>: The default value is <strong>true</strong>, set to <strong>false</strong> if you do not want to enable the plugin</li><li><strong>per_page</strong>: Posts displayed per page. (<strong>0</strong> &#x3D; disable pagination)</li><li><strong>yearly</strong>: Generate yearly archive.</li><li><strong>monthly</strong>: Generate monthly archive.</li><li><strong>daily</strong>: Generate daily archive.</li><li><strong>order_by</strong>: Posts order. (Order by date descending by default)</li></ul><h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
     <link href="/2024/09/22/matlab%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/"/>
     <url>/2024/09/22/matlab%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/</url>
     
@@ -18,10 +31,10 @@
   
   <entry>
     <title></title>
-    <link href="/2024/09/22/%E6%96%B0%E5%BB%BA%20Markdown%20File/"/>
-    <url>/2024/09/22/%E6%96%B0%E5%BB%BA%20Markdown%20File/</url>
+    <link href="/2024/09/22/%E6%97%A5%E8%AE%B0/"/>
+    <url>/2024/09/22/%E6%97%A5%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>2024.10.2 ，1:17</p><h3 id="总是在看到别人幸福之后，心里觉得不平衡，这本来就是不对的，自己的失败尚可以原谅，但朋友的成功更令人揪心。人生就好像是这般，没有任何计划，没有任何的模板，每个人过的都是不一样的，只不过精彩程度不一样罢了，席已经从记忆中消失很久了，突如其来的出现，像是触电一般，内心深处难免晃动了一下，但又转眼间平静了过来，像是一种妥协，又像是一种释怀。这并非是真实的情感，不过是年轻的冲动罢了，就像少年的青春总是懵懂而又好奇，但终究不会是长久的陪伴罢了。“鸟之诗”这首歌曲将在我脑海中挥之不去，并留下深刻的印象。他俩在一块是我没有想到的，就很快，快的就像是一场梦，美妙且精彩，只留下旁观者流连忘返，她满足了我对于伴侣的所有想法，但确实她是真实存在的，单听一首歌，是没有感觉的，触景才能生情，祝福他俩。在看到别人提交答卷之后，自己是否也开始蠢蠢欲动了呢，在听到孔朋友的一些话之后，空荡的内心是否溅起层层涟漪，是否打乱了思绪，惊扰了心神，乱了道行。"><a href="#总是在看到别人幸福之后，心里觉得不平衡，这本来就是不对的，自己的失败尚可以原谅，但朋友的成功更令人揪心。人生就好像是这般，没有任何计划，没有任何的模板，每个人过的都是不一样的，只不过精彩程度不一样罢了，席已经从记忆中消失很久了，突如其来的出现，像是触电一般，内心深处难免晃动了一下，但又转眼间平静了过来，像是一种妥协，又像是一种释怀。这并非是真实的情感，不过是年轻的冲动罢了，就像少年的青春总是懵懂而又好奇，但终究不会是长久的陪伴罢了。“鸟之诗”这首歌曲将在我脑海中挥之不去，并留下深刻的印象。他俩在一块是我没有想到的，就很快，快的就像是一场梦，美妙且精彩，只留下旁观者流连忘返，她满足了我对于伴侣的所有想法，但确实她是真实存在的，单听一首歌，是没有感觉的，触景才能生情，祝福他俩。在看到别人提交答卷之后，自己是否也开始蠢蠢欲动了呢，在听到孔朋友的一些话之后，空荡的内心是否溅起层层涟漪，是否打乱了思绪，惊扰了心神，乱了道行。" class="headerlink" title="总是在看到别人幸福之后，心里觉得不平衡，这本来就是不对的，自己的失败尚可以原谅，但朋友的成功更令人揪心。人生就好像是这般，没有任何计划，没有任何的模板，每个人过的都是不一样的，只不过精彩程度不一样罢了，席已经从记忆中消失很久了，突如其来的出现，像是触电一般，内心深处难免晃动了一下，但又转眼间平静了过来，像是一种妥协，又像是一种释怀。这并非是真实的情感，不过是年轻的冲动罢了，就像少年的青春总是懵懂而又好奇，但终究不会是长久的陪伴罢了。“鸟之诗”这首歌曲将在我脑海中挥之不去，并留下深刻的印象。他俩在一块是我没有想到的，就很快，快的就像是一场梦，美妙且精彩，只留下旁观者流连忘返，她满足了我对于伴侣的所有想法，但确实她是真实存在的，单听一首歌，是没有感觉的，触景才能生情，祝福他俩。在看到别人提交答卷之后，自己是否也开始蠢蠢欲动了呢，在听到孔朋友的一些话之后，空荡的内心是否溅起层层涟漪，是否打乱了思绪，惊扰了心神，乱了道行。"></a>总是在看到别人幸福之后，心里觉得不平衡，这本来就是不对的，自己的失败尚可以原谅，但朋友的成功更令人揪心。人生就好像是这般，没有任何计划，没有任何的模板，每个人过的都是不一样的，只不过精彩程度不一样罢了，席已经从记忆中消失很久了，突如其来的出现，像是触电一般，内心深处难免晃动了一下，但又转眼间平静了过来，像是一种妥协，又像是一种释怀。这并非是真实的情感，不过是年轻的冲动罢了，就像少年的青春总是懵懂而又好奇，但终究不会是长久的陪伴罢了。“鸟之诗”这首歌曲将在我脑海中挥之不去，并留下深刻的印象。他俩在一块是我没有想到的，就很快，快的就像是一场梦，美妙且精彩，只留下旁观者流连忘返，她满足了我对于伴侣的所有想法，但确实她是真实存在的，单听一首歌，是没有感觉的，触景才能生情，祝福他俩。在看到别人提交答卷之后，自己是否也开始蠢蠢欲动了呢，在听到孔朋友的一些话之后，空荡的内心是否溅起层层涟漪，是否打乱了思绪，惊扰了心神，乱了道行。</h3><h3 id="孤单总是必然的，就像是雨，总是会下的，无论你的心情好坏，正如你的心情打动不了上天，雨水不懂你的内心，也许孤单是会习惯的，就算是不习惯，仿佛也已经习以为常了，也便被动接受了，也便习惯了。胡思乱想的心什么时候才能静下来，犹如脱缰的野马，已经在心里面蔓延开来，总归是太闲的原因吧，总是有太多的时间胡思乱想，忙碌起来也就不会去想那么多了，但总有闲暇时间，肆意的情感又该怎么控制，我愿把它交给明天。写到现在，心情已经平复很多了，人总是有很多的情感与情感与思绪，还是需要找人倾诉。"><a href="#孤单总是必然的，就像是雨，总是会下的，无论你的心情好坏，正如你的心情打动不了上天，雨水不懂你的内心，也许孤单是会习惯的，就算是不习惯，仿佛也已经习以为常了，也便被动接受了，也便习惯了。胡思乱想的心什么时候才能静下来，犹如脱缰的野马，已经在心里面蔓延开来，总归是太闲的原因吧，总是有太多的时间胡思乱想，忙碌起来也就不会去想那么多了，但总有闲暇时间，肆意的情感又该怎么控制，我愿把它交给明天。写到现在，心情已经平复很多了，人总是有很多的情感与情感与思绪，还是需要找人倾诉。" class="headerlink" title="孤单总是必然的，就像是雨，总是会下的，无论你的心情好坏，正如你的心情打动不了上天，雨水不懂你的内心，也许孤单是会习惯的，就算是不习惯，仿佛也已经习以为常了，也便被动接受了，也便习惯了。胡思乱想的心什么时候才能静下来，犹如脱缰的野马，已经在心里面蔓延开来，总归是太闲的原因吧，总是有太多的时间胡思乱想，忙碌起来也就不会去想那么多了，但总有闲暇时间，肆意的情感又该怎么控制，我愿把它交给明天。写到现在，心情已经平复很多了，人总是有很多的情感与情感与思绪，还是需要找人倾诉。"></a>孤单总是必然的，就像是雨，总是会下的，无论你的心情好坏，正如你的心情打动不了上天，雨水不懂你的内心，也许孤单是会习惯的，就算是不习惯，仿佛也已经习以为常了，也便被动接受了，也便习惯了。胡思乱想的心什么时候才能静下来，犹如脱缰的野马，已经在心里面蔓延开来，总归是太闲的原因吧，总是有太多的时间胡思乱想，忙碌起来也就不会去想那么多了，但总有闲暇时间，肆意的情感又该怎么控制，我愿把它交给明天。写到现在，心情已经平复很多了，人总是有很多的情感与情感与思绪，还是需要找人倾诉。</h3>]]></content>
     
     
     
