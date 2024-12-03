@@ -1,308 +1,445 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
   
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-  <title>这是属于剔骨烟台的个人博客</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="剔骨烟台">
+  <meta name="keywords" content="关键词">
+  
+    <meta name="description" content="网站描述">
+<meta property="og:type" content="website">
 <meta property="og:title" content="这是属于剔骨烟台的个人博客">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="这是属于剔骨烟台的个人博客">
-<meta property="og:locale">
+<meta property="og:description" content="网站描述">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="剔骨烟台">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="这是属于剔骨烟台的个人博客" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
+<meta property="article:tag" content="关键词">
+<meta name="twitter:card" content="summary_large_image">
   
   
   
-<link rel="stylesheet" href="/css/style.css">
+  <title>这是属于剔骨烟台的个人博客</title>
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
   
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
   
 <meta name="generator" content="Hexo 7.3.0"></head>
 
+
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">这是属于剔骨烟台的个人博客</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
         
-          <a class="main-nav-link" href="/">Home</a>
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
         
-          <a class="main-nav-link" href="/archives">Archives</a>
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
         
-      </nav>
-      <nav id="sub-nav">
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
         
         
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Suche"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-matlab语法介绍" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/09/22/matlab%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/" class="article-date">
-  <time class="dt-published" datetime="2024-09-22T10:36:07.339Z" itemprop="datePublished">2024-09-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>1.<strong>“；”的作用</strong>：每个语句加“；”执行后不显示结果，不加“；”执行后会在命令行窗口显示结果;<br>2.<strong>多行注释</strong>：注释对于代码的重要性我们就不做过多的解释了。不做注释的代码不是好代码。选中要注释的语句，按快捷键Ctrl+R,或者在命令行窗口上面的注释地方可以进行注释。当然也可以直接在语句前面+“%”就可以（注意：一定要用英文符号！）;<br>3.<strong>取消注释</strong>：快捷键Ctrl+T;<br>4.<strong>clear</strong>:清除工作区所有变量，你在命令行定义变量时可以在工作区查看的，这个操作可以清楚工作区的变量；<br>5.<strong>clc</strong>:清楚命令行窗口所有文本，让屏幕变得干净（特别适合强迫症）。clear和clc经常搭配一起使用；<br>6.<strong>输入和输出函数：输出函数disp(), 输入函数input();</strong><br>这里先说明matlab中如何表示字符串：<strong>‘字符串’</strong>；</p>
-<p>7.matlab中矩阵的表示方法：<strong>“行”**中数据用**空格**或者</strong>逗号**隔开，换行用“；”隔开，整体用“[ ]”括起来。</p>
-<p>8.<strong>strcat()函数</strong>：粘贴字符串，可以把两个字符串粘贴在一起<br>strcat(‘str1’,‘str2’)</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; <span class="built_in">strcat</span>(<span class="string">&#x27;我是&#x27;</span>,<span class="string">&#x27;小白&#x27;</span>)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">    <span class="string">&#x27;我是小白&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="number">123456</span></span><br></pre></td></tr></table></figure>
-
-<p>[str1,str2,str3]或者[str1 str2 str3]也是可以粘贴合成的呢</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; [<span class="string">&#x27;wo&#x27;</span> <span class="string">&#x27;shi&#x27;</span> <span class="string">&#x27;xiao&#x27;</span> <span class="string">&#x27;bai&#x27;</span>]</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">    <span class="string">&#x27;woshixiaobai&#x27;</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; [<span class="string">&#x27;wo&#x27;</span>,<span class="string">&#x27;shi&#x27;</span>,<span class="string">&#x27;xiao&#x27;</span>,<span class="string">&#x27;bai&#x27;</span>]</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">    <span class="string">&#x27;woshixiaobai&#x27;</span></span><br><span class="line"><span class="number">123456789101112</span></span><br></pre></td></tr></table></figure>
-
-<p>8.<strong>sum()函数</strong>：这是加法函数，可以分别对矩阵进行加法计算的。<br>假设A是一个矩阵，对列求和：sum(A)或者sum(A,1);对行求和：sum(A,2)。这里的“1”和“2”是<strong>dim值，表示维度，1是对列，2是对行，通常1可以省略</strong>。<br>整个矩阵求和：sum(A(: )）<br>下面的计算结果可以自己检验哦!</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; A=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>;<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>;<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; sum(A)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">    <span class="number">12</span>    <span class="number">15</span>    <span class="number">18</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; sum(A,<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">6</span></span><br><span class="line">    <span class="number">15</span></span><br><span class="line">    <span class="number">24</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; sum(A(:))</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">    <span class="number">45</span></span><br></pre></td></tr></table></figure>
-
-<p>10.matlab中如何提取矩阵中指定位置元素<br>1）指定行和列:<strong>A(m,n)</strong>,提取第m行，第n列<br>2）某一行全部元素：<strong>A(m,:)</strong><br>3）某一列全部元素：<strong>A(:,n)</strong></p>
-<ol start="4">
-<li>取出某些行：**A([m,n],: )**（第m行和第n行组成一个矩阵）</li>
-</ol>
-<p>5）取出某行到某行：<strong>A(m:n,:), A(m:end,:)(end是倒数第一行)</strong><br>6）跳跃式提取：<strong>A(m:k:n,:)第m行到第n行每隔取一次</strong><br>7）得到全部元素：<strong>A(: )输出结果是一个列向量</strong></p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; A</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A(<span class="number">1</span>,<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A(<span class="number">1</span>,:)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A(:,<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span></span><br><span class="line">     <span class="number">4</span></span><br><span class="line">     <span class="number">7</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A([<span class="number">1</span>,<span class="number">2</span>],:)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line">&gt;&gt; A(<span class="number">1</span>:<span class="number">3</span>,:)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A(<span class="number">1</span>:<span class="number">1</span>:<span class="number">3</span>,:)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; </span><br></pre></td></tr></table></figure>
-
-<p>8.<strong>strcat()函数</strong>：粘贴字符串，可以把两个字符串粘贴在一起<br>strcat(‘str1’,‘str2’)</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; <span class="built_in">strcat</span>(<span class="string">&#x27;我是&#x27;</span>,<span class="string">&#x27;小白&#x27;</span>)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">    <span class="string">&#x27;我是小白&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="number">123456</span></span><br></pre></td></tr></table></figure>
-
-<p>[str1,str2,str3]或者[str1 str2 str3]也是可以粘贴合成的呢</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; [<span class="string">&#x27;wo&#x27;</span> <span class="string">&#x27;shi&#x27;</span> <span class="string">&#x27;xiao&#x27;</span> <span class="string">&#x27;bai&#x27;</span>]</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">    <span class="string">&#x27;woshixiaobai&#x27;</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; [<span class="string">&#x27;wo&#x27;</span>,<span class="string">&#x27;shi&#x27;</span>,<span class="string">&#x27;xiao&#x27;</span>,<span class="string">&#x27;bai&#x27;</span>]</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">    <span class="string">&#x27;woshixiaobai&#x27;</span></span><br><span class="line"><span class="number">123456789101112</span></span><br></pre></td></tr></table></figure>
-
-<p>8.<strong>sum()函数</strong>：这是加法函数，可以分别对矩阵进行加法计算的。<br>假设A是一个矩阵，对列求和：sum(A)或者sum(A,1);对行求和：sum(A,2)。这里的“1”和“2”是<strong>dim值，表示维度，1是对列，2是对行，通常1可以省略</strong>。<br>整个矩阵求和：sum(A(: )）<br>下面的计算结果可以自己检验哦!</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; A=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>;<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>;<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; sum(A)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">    <span class="number">12</span>    <span class="number">15</span>    <span class="number">18</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; sum(A,<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">6</span></span><br><span class="line">    <span class="number">15</span></span><br><span class="line">    <span class="number">24</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; sum(A(:))</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">    <span class="number">45</span></span><br><span class="line"></span><br><span class="line"><span class="number">12345678910111213141516171819202122232425262728</span></span><br></pre></td></tr></table></figure>
-
-<p>10.matlab中如何提取矩阵中指定位置元素<br>1）指定行和列:<strong>A(m,n)</strong>,提取第m行，第n列<br>2）某一行全部元素：<strong>A(m,:)</strong><br>3）某一列全部元素：<strong>A(:,n)</strong></p>
-<ol start="4">
-<li>取出某些行：**A([m,n],: )**（第m行和第n行组成一个矩阵）</li>
-</ol>
-<p>5）取出某行到某行：<strong>A(m:n,:), A(m:end,:)(end是倒数第一行)</strong><br>6）跳跃式提取：<strong>A(m:k:n,:)第m行到第n行每隔取一次</strong><br>7）得到全部元素：<strong>A(: )输出结果是一个列向量</strong></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; A</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A(<span class="number">1</span>,<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A(<span class="number">1</span>,:)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A(:,<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span></span><br><span class="line">     <span class="number">4</span></span><br><span class="line">     <span class="number">7</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A([<span class="number">1</span>,<span class="number">2</span>],:)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line">&gt;&gt; A(<span class="number">1</span>:<span class="number">3</span>,:)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A(<span class="number">1</span>:<span class="number">1</span>:<span class="number">3</span>,:)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; </span><br><span class="line"><span class="number">1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253</span></span><br></pre></td></tr></table></figure>
-
-<p>11.<strong>“上”**和**“下”*<em>两个方向键可以*<em>查看历史命令，方便输入。</em></em><br><img src="https://img-blog.csdnimg.cn/20200219160702639.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTE0NzIzMw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>12.<strong>size()函数</strong>：size(A)函数用于求矩阵A的大小，返回一个行向量，其中第一个元素是矩阵列数，第二个元素是矩阵行数。**[r,c]&#x3D;size(A)</strong><br>r&#x3D;size(A,1)返回行数，c&#x3D;size(A,2)返回列数，注意dim值，看看会不会和sum()中的dim值代表的行和列混乱了呢？</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; clear</span><br><span class="line">&gt;&gt; A=[<span class="number">1</span> <span class="number">2</span>;<span class="number">3</span> <span class="number">4</span>;<span class="number">5</span> <span class="number">6</span>]</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span></span><br><span class="line">     <span class="number">3</span>     <span class="number">4</span></span><br><span class="line">     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; r=size(A,<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">r =</span><br><span class="line"></span><br><span class="line">     <span class="number">3</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; c=size(A,<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">c =</span><br><span class="line"></span><br><span class="line">     <span class="number">2</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; size(A)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">3</span>     <span class="number">2</span></span><br><span class="line"><span class="number">1234567891011121314151617181920212223242526</span></span><br></pre></td></tr></table></figure>
-
-<p>13.<strong>repmat()函数</strong>：矩阵的复制，B&#x3D;repmat(A,m,n)就是将A复制<strong>mxn块</strong></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; A</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span></span><br><span class="line">     <span class="number">3</span>     <span class="number">4</span></span><br><span class="line">     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; repmat(A,<span class="number">3</span>,<span class="number">3</span>)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">1</span>     <span class="number">2</span>     <span class="number">1</span>     <span class="number">2</span></span><br><span class="line">     <span class="number">3</span>     <span class="number">4</span>     <span class="number">3</span>     <span class="number">4</span>     <span class="number">3</span>     <span class="number">4</span></span><br><span class="line">     <span class="number">5</span>     <span class="number">6</span>     <span class="number">5</span>     <span class="number">6</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">1</span>     <span class="number">2</span>     <span class="number">1</span>     <span class="number">2</span></span><br><span class="line">     <span class="number">3</span>     <span class="number">4</span>     <span class="number">3</span>     <span class="number">4</span>     <span class="number">3</span>     <span class="number">4</span></span><br><span class="line">     <span class="number">5</span>     <span class="number">6</span>     <span class="number">5</span>     <span class="number">6</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">1</span>     <span class="number">2</span>     <span class="number">1</span>     <span class="number">2</span></span><br><span class="line">     <span class="number">3</span>     <span class="number">4</span>     <span class="number">3</span>     <span class="number">4</span>     <span class="number">3</span>     <span class="number">4</span></span><br><span class="line">     <span class="number">5</span>     <span class="number">6</span>     <span class="number">5</span>     <span class="number">6</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; </span><br><span class="line"><span class="number">1234567891011121314151617181920212223</span></span><br></pre></td></tr></table></figure>
-
-<p>14.矩阵中各种计算：<br>1)<strong>“*”和“&#x2F;”代表矩阵之间的乘法和除法</strong>。学习过线性代数的同学对乘法应该很熟悉的。对于除法，必须熟悉一个叫逆阵的概念熟悉，<strong>求逆阵用inv()函数</strong>，A&#x2F;B&#x3D;A<em>inv(B),<br>B <em>inv(B)&#x3D;单位矩阵。<br>2)两个相同维度的矩阵对应元素之间的乘除法使用**点乘和“.&#x2F;”</em></em><br>3)矩阵每个元素和常数相乘可用点乘，可不用点乘<br>4)<strong>每个元素乘方只能用“.^”</strong><br>5)<strong>加减法</strong>中要求两个矩阵<strong>大小完全相同</strong>。</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; A=[<span class="number">1</span> <span class="number">2</span> <span class="number">3</span>; <span class="number">4</span> <span class="number">5</span> <span class="number">6</span>;<span class="number">7</span> <span class="number">8</span> <span class="number">9</span>]</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">2</span>     <span class="number">3</span></span><br><span class="line">     <span class="number">4</span>     <span class="number">5</span>     <span class="number">6</span></span><br><span class="line">     <span class="number">7</span>     <span class="number">8</span>     <span class="number">9</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A.^<span class="number">2</span></span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span>     <span class="number">4</span>     <span class="number">9</span></span><br><span class="line">    <span class="number">16</span>    <span class="number">25</span>    <span class="number">36</span></span><br><span class="line">    <span class="number">49</span>    <span class="number">64</span>    <span class="number">81</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; </span><br><span class="line"><span class="number">1234567891011121314151617</span></span><br></pre></td></tr></table></figure>
-
-<p>15.matlab中求矩阵的<strong>特征值和特征向量</strong><br>这部分可以看我上一篇博客：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45147233/article/details/104356844">用matlab求得矩阵的最大特征值</a><br>16.<strong>find()函数的用法</strong>：find(A)中用来<strong>返回向量</strong>或者<strong>矩阵中不为0</strong>的元素的位置索引<br><strong>ind&#x3D;find(x) 返回不为0的值的元素的位置</strong><br><strong>ind&#x3D;find(x,2)返回前两个不为0值得元素位置</strong><br>如果X是一个矩阵，要用<strong>矩阵表示返回结果</strong>，不然返回就是一个列向量。</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; clear</span><br><span class="line">&gt;&gt; A=[<span class="number">0</span> <span class="number">0</span> <span class="number">0</span>;<span class="number">0</span> <span class="number">1</span> <span class="number">0</span>;<span class="number">0</span> <span class="number">0</span> <span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">0</span>     <span class="number">0</span>     <span class="number">0</span></span><br><span class="line">     <span class="number">0</span>     <span class="number">1</span>     <span class="number">0</span></span><br><span class="line">     <span class="number">0</span>     <span class="number">0</span>     <span class="number">0</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; find(A)</span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">     <span class="number">5</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; </span><br><span class="line"><span class="number">12345678910111213141516</span></span><br></pre></td></tr></table></figure>
-
-<p>16.matlab中矩阵和常数大小比较：<br><strong>大于＞，小于＜，等于&#x3D;&#x3D;，赋值&#x3D;，返回值用0和1作为逻辑数比较</strong>。</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; A</span><br><span class="line"></span><br><span class="line">A =</span><br><span class="line"></span><br><span class="line">     <span class="number">0</span>     <span class="number">0</span>     <span class="number">0</span></span><br><span class="line">     <span class="number">0</span>     <span class="number">1</span>     <span class="number">0</span></span><br><span class="line">     <span class="number">0</span>     <span class="number">0</span>     <span class="number">0</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; A&gt;<span class="number">0</span></span><br><span class="line"></span><br><span class="line">ans =</span><br><span class="line"></span><br><span class="line">  <span class="number">3</span>×<span class="number">3</span> logical 数组</span><br><span class="line"></span><br><span class="line">   <span class="number">0</span>   <span class="number">0</span>   <span class="number">0</span></span><br><span class="line">   <span class="number">0</span>   <span class="number">1</span>   <span class="number">0</span></span><br><span class="line">   <span class="number">0</span>   <span class="number">0</span>   <span class="number">0</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; </span><br><span class="line"><span class="number">12345678910111213141516171819</span></span><br></pre></td></tr></table></figure>
-
-<p>17.判断语句：<strong>if else elseif end</strong> ,<strong>注意if 那一行不加冒号</strong>，最后一定要用end结束<img src="https://img-blog.csdnimg.cn/20200219165424561.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTE0NzIzMw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">clear;clc</span><br><span class="line">A=input(<span class="string">&#x27;数学期末成绩：&#x27;</span>);</span><br><span class="line">    <span class="keyword">if</span> A&gt;<span class="number">85</span></span><br><span class="line">        disp(<span class="string">&quot;非常优秀&quot;</span>);</span><br><span class="line">    elseif A&gt;<span class="number">60</span></span><br><span class="line">        disp(<span class="string">&quot;你及格了&quot;</span>);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        disp(<span class="string">&quot;你挂科了&quot;</span>);</span><br><span class="line">    end</span><br></pre></td></tr></table></figure>
-
-<p>% 3.矩阵[1,2,3;4,5,2;3,2 ,7]</p>
-<p>B&#x3D;A’    </p>
-<p>C&#x3D;A(:)</p>
-<p>D&#x3D;inv (A)</p>
-<p>E&#x3D;zeros (10, 5, 3)</p>
-<p>E(:,:,1)rand(10, 5)</p>
-<p>E(:，:,2)randi (5,10,5)</p>
-<p>E（:，:,3)randn (10, 5)</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/09/22/matlab%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/" data-id="cm1dg1c9700009kpv6kx08l5v" data-title="" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-新建 Markdown File" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/09/22/%E6%96%B0%E5%BB%BA%20Markdown%20File/" class="article-date">
-  <time class="dt-published" datetime="2024-09-22T10:35:54.523Z" itemprop="datePublished">2024-09-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/09/22/%E6%96%B0%E5%BB%BA%20Markdown%20File/" data-id="cm1dg1c9e00019kpv8tdoeb6a" data-title="" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/09/22/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2024-09-22T08:02:07.976Z" itemprop="datePublished">2024-09-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <hr>
-<hr>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/09/22/hello-world/" data-id="cm1dedatz0000j0pvecjshkrw" data-title="" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/09/">September 2024</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2024/09/22/matlab%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/">(no title)</a>
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
           </li>
+          
         
-          <li>
-            <a href="/2024/09/22/%E6%96%B0%E5%BB%BA%20Markdown%20File/">(no title)</a>
-          </li>
         
-          <li>
-            <a href="/2024/09/22/hello-world/">(no title)</a>
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
           </li>
         
       </ul>
     </div>
   </div>
+</nav>
 
   
-</aside>
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
+          
+        </div>
+
         
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
+
       
-      &copy; 2024 剔骨烟台<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
     </div>
   </div>
-</footer>
+</div>
 
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/09/22/matlab%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/09/22/matlab%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/" target="_self">
+        <div>
+          1.“；”的作用：每个语句加“；”执行后不显示结果，不加“；”执行后会在命令行窗口显示结果;2.多行注释：注释对于代码的重要性我们就不做过多的解释了。不做注释的代码不是好代码。选中要注释的语句，按快捷键Ctrl+R,或者在命令行窗口上面的注释地方可以进行注释。当然也可以直接在语句前面+“%”就可以（注意：一定要用英文符号！）;3.取消注释：快捷键Ctrl+T;4.clear:清除工作区所有变量，你
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-09-22 18:36" pubdate>
+              2024-09-22
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/09/22/%E6%96%B0%E5%BB%BA%20Markdown%20File/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/09/22/%E6%96%B0%E5%BB%BA%20Markdown%20File/" target="_self">
+        <div>
+          
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-09-22 18:35" pubdate>
+              2024-09-22
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/09/22/hello-world/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/09/22/hello-world/" target="_self">
+        <div>
+          
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-09-22 16:02" pubdate>
+              2024-09-22
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     
 
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
 
-<script src="/js/jquery-3.6.4.min.js"></script>
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
 
 
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+    <script  src="/js/img-lazyload.js" ></script>
+  
 
 
 
 
-<script src="/js/script.js"></script>
+  <script  src="/js/local-search.js" ></script>
 
 
 
 
 
-  </div>
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>
